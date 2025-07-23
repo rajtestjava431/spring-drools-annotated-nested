@@ -1,0 +1,10 @@
+package rules
+import java.util.Map;
+
+rule "User rule - age check"
+    agenda-group "userRules"
+when
+    $data : Map(this["age"] != null && (Integer)this["age"] > 18)
+then
+    System.out.println("User is adult: " + $data);
+end
