@@ -1,4 +1,4 @@
-package rules
+package user
 import java.util.Map;
 
 rule "User rule - age check"

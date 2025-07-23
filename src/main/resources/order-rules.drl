@@ -1,4 +1,4 @@
-package rules
+package order
 import java.util.Map;
 
 rule "Order rule - high amount"
